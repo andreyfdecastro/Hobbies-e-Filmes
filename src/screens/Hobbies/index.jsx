@@ -4,11 +4,10 @@ import styles from './styles'
 import Mybutton from '../../components/MyButon'
 
 
-export default function HobbieseFilmes() {
+export default function Hobies() {
   return (
     <View style={styles.container}>
-   <Mybutton screen="Hobies" name="Go to Hobies" />
-   <Mybutton screen="Filmes" name="Go to Filme" />
+   <Mybutton screen="HobbieseFilmes" name="HobbieseFilmes" />
     </View>
   )
 }

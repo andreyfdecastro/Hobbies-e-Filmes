@@ -9,7 +9,8 @@ import Mybutton from '../../components/MyButon'
 export default function Home() {
   return (
     <View style={styles.container}>
-     <Mybutton screen="Totoro" name="Quem Sou"/>
+     <Mybutton screen="HobbieseFilmes" name="Quem Sou"/>
+     
     </View>
   )
 }
